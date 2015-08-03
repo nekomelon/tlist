@@ -3,8 +3,6 @@ require([
 	// ブラウザーチェックとかやる？
 	// 画面ブロック (ログイン画面構築を見せないようにする)
 	
-	// divLoading削除 (ここ？)
-	
 	// ログイン画面構築 (from login.html)
 	require([
 	        "dojo/dom-construct",
