@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>tlist</title>
+	<style>
+		@import "/tlist/dojo/dojo/resources/dojo.css";
+		@import "/tlist/dojo/dijit/themes/claro/claro.css";
+	</style>
+	<script>
+		dojoConfig = {
+			parseOnLoad: false,
+			async: true,
+			baseUrl: "/tlist",
+			packages: [{
+				name: "dojo",
+				location: "dojo/dojo"
+			}, {
+				name: "dijit",
+				location: "dojo/dijit"
+			}, {
+				name: "dojox",
+				location: "dojo/dojox"
+			}]
+		};
+	</script>
+	<script src="dojo/dojo/dojo.js"></script>
+	<script src="app/index.js"></script>
+</head>
+<body class="claro">
+	<div id="divLoading"><span>loading...</span></div>
+</body>
+</html>
